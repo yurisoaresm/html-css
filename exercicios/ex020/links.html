@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkslategray;
+        }
+        a{
+            color: green;
+            text-decoration: none;
+
+        }
+        a:visited{
+            color: greenyellow;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: ' [link] ';
+            color: rgb(13, 141, 201);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://store.steampowered.com/?l=portuguese" target="_blank">Perfil Steam</a></li>
+        <li><a href="https://br.crossfire.z8games.com/profile/5592502" target="_blank">Perfil Crossfire</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Site do YouTube</a></li>
+    </ul>
+</body>
+</html>

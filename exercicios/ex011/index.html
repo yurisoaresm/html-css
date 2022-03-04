@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>É possível ajustar imagens diferentes para telas de tamanhos diferentes como aqui usando a tag &lt;picture&gt;. Ajuste a tela do navegador ou abra esta página num celular ou outro aparelho para testificar o efeito.</p>
+    <picture>
+        <source media="(max-width: 730px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <p>Agora, com outra imagem cortada (cropada) nas laterais, visto que o parâmetro de tamanho considerado pelo HTML5 é width (largura).</p>
+    <picture>
+        <source media="(max-width:1030px)" srcset="imagens/foto-crop.png" type="image/png">
+        <img src="imagens/foto-teste.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <audio preload="none" src="midia/happy-mistake.mp3" autoplay controls loop></audio> <!--autoplay parece não funcionar; abaixo há outra maneira de upar áudios e mais de um formato simultaneamente-->
+    <p>Agora, usando as tag audio e source src é possível subir vários formatos de áudio de modo que o primeiro será upado; caso contrário, o segundo e assim sucesivamente.</p>
+    <audio controls preload="metadata"> <!--Metadados: carrega ao clicar; auto: carrega de uma vez; none: carrega tudo somente após play-->
+        <source src="midia/guanacast-33.mp3" type="audio/mp3">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
