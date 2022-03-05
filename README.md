@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Ajuda em HTML/CSS
+Este repositório é um conjunto de projetos e exercícios utilizando diversos recursos das linguagens de marcação. Ele é dividido em exercícios, desafios e projetos. 
 
-You can use the [editor on GitHub](https://github.com/yurisoaresm/html-css/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Abaixo você encontrará os sites que julguei mais interessantes. Caso queira encontrar um site que não foi colocado basta completar a URL com o caminho para o principal arquivo HTML.
+## Sites
+### Desafios
+- [Curiosidades do Android](https://yurisoaresm.github.io/html-css/desafios/androidsite/android.html "Curiosidades do Android")
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yurisoaresm/html-css/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Exercícios
+- [Exercício 021: modelos de caixa (box models)](https://yurisoaresm.github.io/html-css/exercicios/ex021/caixa02.html "Exercício 021: modelos de caixa")
+- [Exercício 020: pseudoclasses](https://yurisoaresm.github.io/html-css/exercicios/ex020/pseudoclasse.html "Exercício 020: pseudoclasses")
+- [Exercício 019: seletores](https://yurisoaresm.github.io/html-css/exercicios/ex019/seletor01.html "Exercício 019: seletores")
+- [Exercício 016: cores](https://yurisoaresm.github.io/html-css/exercicios/ex016/cor03.html "Exercício 016: cores")
+- [Exercício 012: inserindo vídeos](https://yurisoaresm.github.io/html-css/exercicios/ex012/index.html "Exercício 012: inserindo vídeos")
