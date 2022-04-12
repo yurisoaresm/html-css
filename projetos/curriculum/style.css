@@ -1,3 +1,13 @@
+:root { 
+  --cor0: #f3f3f3;
+  --cor1: #043F7A;
+  --cor2: #53A7FB;
+  --cor3: #0781FA;
+  --cor4: #28517A;
+  --cor5: #0666C7;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -15,12 +25,21 @@ header {
   font-size: 35px;
 }
 
+/* Custom the bar color */
+.w3-round-xlarge {
+  background-color: var(--cor1);
+  color: var(--cor0);
+}
+
+
 /* Create three equal columns that floats next to each other */
 .column {
   margin: 10px 0px;
   float: left;
   width: 33.33%;
   padding: 10px;
+
+  border-left: 1px solid black;
 }
 
 /* Clear floats after the columns */
@@ -28,6 +47,15 @@ header {
   content: "";
   display: table;
   clear: both;
+}
+
+#technologies {
+  display: block;
+  columns: 2;
+}
+
+#technologies > p {
+  margin: 10px;
 }
 
 /* Style the footer */
