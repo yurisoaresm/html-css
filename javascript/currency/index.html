@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Conversor de Moedas</h1>
+  <div>
+    <p>Escolha a moeda de entrada:</p>
+    <div><input type="radio" name="in" value="real" checked>REAL</input></div>
+    <div><input type="radio" name="in" value="dolar">DOLAR</input></div>
+    <div><input type="radio" name="in" value="euro">EURO</input></div>
+    <div><input type="radio" name="in" value="libra">LIBRA</input></div>
+  </div>
+  <div>
+    <p>Escolha a moeda de entrada:</p>
+    <div><input type="radio" name="out" value="real">REAL</input></div>
+    <div><input type="radio" name="out" value="dolar" checked>DOLAR</input></div>
+    <div><input type="radio" name="out" value="euro">EURO</input></div>
+    <div><input type="radio" name="out" value="libra">LIBRA</input></div>
+  </div>
+  <div>
+    <div>Digite o valor:</div>
+    <input id="amount" min="0.00" type="number" step="0.01" value="0.00">
+  </div>
+  <div>
+    <p>O valor convertido é: <span id="result">0.0</span></p>
+  </div>
+  <div>
+    <button onclick="convert()">Converter</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
