@@ -1,0 +1,32 @@
+.wow {
+  width: 100px;
+}
+
+body {
+  background-color: #2e2e2e;
+  color: #e4e4e4;
+}
+
+button {
+  border-radius: 10px;
+  background-color: white;
+  border: 0px;
+  padding: 4px 8px;
+  box-shadow: 3px 3px 4px #1f1f1f;
+}
+
+button:hover {
+  transition: 0.4s;
+  background-color: #dadada;
+}
+
+
+main { 
+  display: flexbox;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+div {
+  text-align: center;
+}
