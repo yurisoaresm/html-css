@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cotação - Web Service</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div>
+    <p>Moeda de Entrada</p>
+    <input type="radio" name="in" value="BRL" checked> REAL <br>
+    <input type="radio" name="in" value="USD" > DOLAR <br>
+    <input type="radio" name="in" value="EUR" > EURO <br>
+    <input type="radio" name="in" value="GBP" > LIBRA <br>
+  </div>
+  <div>
+    <p>Moeda de Saída</p>
+    <input type="radio" name="out" value="BRL" > REAL <br>
+    <input type="radio" name="out" value="USD" checked> DOLAR <br>
+    <input type="radio" name="out" value="EUR" > EURO <br>
+    <input type="radio" name="out" value="GBP" > LIBRA <br>
+  </div>
+  <div>
+    Quantia: <input id="quantia" type="number" value="12.00">
+    <button onclick="converter()">Converter</button>
+  </div>
+  <p>O valor convertido é: <span id="result">???</span></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
