@@ -22,6 +22,7 @@ Abaixo você encontrará as páginas que escolhi como mais interessantes. Caso q
 - [Joken-po: Pedra-Papel-Tesoura](https://yurisoaresm.github.io/html-css/javascript/joken-po/index.html "Joken-po: Pedra-Papel-Tesoura")
 - [Conversor de Moedas](https://yurisoaresm.github.io/html-css/javascript/currency/index.html "Conversor de Moedas")
 - [Formulário Básico](https://yurisoaresm.github.io/html-css/javascript/forms1/index.html "Formulário básico")
+- [Armazenar Dados do Usuário no Navegador](https://yurisoaresm.github.io/html-css/javascript/storage/index.html "Armazenar Dados do Usuário no Navegador")
 
 ### Desafios
 - [Curiosidades do Android](https://yurisoaresm.github.io/html-css/desafios/androidsite/android.html "Curiosidades do Android")
