@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+/* root (raiz): guardar variáveis para todas as subseções deste arquivo*/
+:root { 
+  --cor0: #EEEEEE;
+  --cor1: #ECD9DD;
+  --cor2: #A05464;
+  --cor3: #454545;
+
+  --fonte-padrao: 'Ubuntu', Arial, Verdana, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor0);
+}
+
+img#logo {
+  width: 170px;
+
+}
+
+.img_apoiadores {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: var(--fonte-padrao);
+  font-size: 32px;
+
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--fonte-padrao);
+  font-size: 26px;
+}
+
+ul {
+  list-style-type: "\2714\00A0\00A0";
+  list-style-position: inside; /* envia as marcações da lista para dentro da divisão */
+  columns: 2;
+}
+
+header {
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+
+
+  box-shadow: 4px 4px 8px rgb(172, 172, 172);
+}
+
+main {
+  padding: 20px;
+
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  height: 190px;
+
+  background-color: var(--cor3);
+}
