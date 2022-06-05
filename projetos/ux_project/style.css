@@ -9,6 +9,7 @@
   --cor1: #ECD9DD;
   --cor2: #A05464;
   --cor3: #454545;
+  --cor4: #eeeeee1f;
 
   --fonte-padrao: 'Ubuntu', Arial, Verdana, sans-serif;
 }
@@ -19,7 +20,7 @@
 }
 
 body {
-  background-color: var(--cor0);
+  background-color: white;
   font-family: var(--fonte-padrao);
 }
 
@@ -35,8 +36,36 @@ h2 {
   color: var(--cor2);
 }
 
+hr {
+  color: rgba(0, 0, 0, 0.336);
+}
 
-/* Header e seus elementos */
+body > img {
+  width: 100%;
+  min-height: 150px;
+
+}
+
+body > div {
+  text-align: center;
+}
+
+body > div > i {
+  font-size: 28px;
+  padding: 5px;
+  color: var(--cor2);
+  border-radius: 10px;
+}
+
+body > div > i:hover {
+
+  background-color: var(--cor1);
+  transition-duration: 0.2s;
+}
+
+
+/* Header e seus elementos 
+============================================ */
 
 header {
   padding: 20px;
@@ -45,6 +74,7 @@ header {
   height: 80px;
   display: inline-block;
   text-align: center;
+  background-color: var(--cor0);
   box-shadow: 4px 4px 8px rgb(172, 172, 172);
 }
 
@@ -52,11 +82,11 @@ header > img {
   width: 200px;
 }
 
-nav {
+header nav {
   padding: 10px;
 }
 
-nav > a {
+header nav > a {
   color: var(--cor2);
   padding: 10px;
   border-radius: 5px;
@@ -64,21 +94,21 @@ nav > a {
   transition-duration: 0.2s;
 }
 
-nav > a:hover {
+header nav > a:hover {
   background-color: var(--cor1);
   font-weight: bold;
 }
 
-/* Main e seus elementos */
+/* Main e seus elementos 
+============================================ */
 
 main {
   min-width: 300px;
   max-width: 1000px;
 
   padding: 20px;
-  margin: 0px auto 15px auto;
-  box-shadow: 2px 2px 8px rgb(172, 172, 172);
-  background-color: white;
+  margin: 15px auto 15px auto;
+  
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -111,13 +141,14 @@ main ul {
 }
 
 
-/* Footer e seus elementos */
+/* Footer e seus elementos 
+============================================ */
 
 footer {
   display: inline-block;
   text-align: center;
   width: 100%;
-  height: 190px;
+  height: 230px;
 
   color: var(--cor0);
   background-color: var(--cor3);
@@ -131,10 +162,28 @@ footer > img {
 
 footer > p {
   font-size: 14px;
+  margin: 5px auto;
+}
+
+footer nav {
+  padding: 10px;
+}
+
+footer nav > a {
+  color: var(--cor0);
+  font-size:32px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+footer nav > a:hover {
+  background-color: var(--cor4);
 
 }
 
 #direitos {
+  margin: 15px auto;
   font-style: italic;
   font-weight: 300;
 }
