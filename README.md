@@ -15,7 +15,6 @@ Abaixo você encontrará as páginas que escolhi como mais interessantes. Caso q
 
 ### Projetos
 - [Currículo](https://yurisoaresm.github.io/html-css/projetos/curriculum/profile.html "Currículo") ([Ver arquivos no diretório](https://github.com/yurisoaresm/html-css/tree/master/projetos/curriculum "Código-fonte"))
-- [Literatura](https://yurisoaresm.github.io/html-css/projetos/literatura/index.html "Literatura") ([Ver arquivos no diretório](https://github.com/yurisoaresm/html-css/tree/master/projetos/literatura "Código-fonte"))
 - [Projeto de UX](https://yurisoaresm.github.io/html-css/projetos/ux_project/index.html "Projeto de UX") ([Ver arquivos no diretório](https://github.com/yurisoaresm/html-css/tree/master/projetos/ux_project "Código-fonte"))
 
 ### JavaScript
